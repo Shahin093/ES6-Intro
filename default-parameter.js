@@ -1,0 +1,12 @@
+function add(num1, num2 = 0) {
+    const total = num1 + num2;
+    return total;
+}
+const result = add(10, 10);
+console.log(result);
+
+function fullName(first, second) {
+    return first + ' ' + second;
+
+}
+console.log(fullName('shidul', 'islam'));
